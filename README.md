@@ -20,10 +20,8 @@ The main purpose of this analysis is to predict credit risk for loan applicants 
   - For Class 0: There are 18,765 instances of Class 0.
   - For Class 1: There are 619 instances of Class 1.
 
-- **Accuracy**: The overall correctness of the model, calculated as the ratio of correctly predicted samples to the total number of samples. The overall accuracy of the model is 0.99, indicating the model is 99% accurate.
-
-- **Macro Avg**: The unweighted average of the metrics for each class, not considering class imbalance. The macro average precision, recall, and F1-score are 0.92, 0.95, and 0.94, respectively.
 
 - **Weighted Avg**: The average of the metrics for each class, weighted by the number of true instances for each class. The weighted average precision, recall, and F1-score are all 0.99.
 
 ## Summary ##
+The overall accuracy of the model is extremely high at 0.99 meaning there is 99% correctly predicted samples to the total number of samples. The macro average is the average of the metrics of each class without considering class imbalance with precision, recall, and F1-score are 0.92, 0.95, and 0.94, respectively. The weighted average is the average of the metrics for each class with precision, recall, and F1-score are 0.99, 0.99, and 0.99, respectively.
